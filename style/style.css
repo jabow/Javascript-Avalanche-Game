@@ -1,0 +1,210 @@
+body { 
+		color: black; /*Text color */
+		background: lightgrey; /*Background color is set */
+		font-family:  Sans-serif, Verdana;  
+		font-size: 14px;
+		line-height: 1.529;
+	}
+	
+/* .banner	{
+			width: 70%;
+			margin-left: 15%;
+			margin-right: 15%;
+
+			text-align: center;
+			color: white;
+		} */
+		
+.center	{
+			text-align: center;
+		}
+
+#GameCanvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	background-color:#8fddf1;
+	-moz-box-shadow: 	0 2px 10px 5px #454545;
+	-webkit-box-shadow: 0 2px 10px 5px #454545;
+	box-shadow: 		0 2px 10px 5px #454545;
+}
+
+#highscore {
+	display: block;
+	padding: 10px;
+	background-color:#8fddf1;
+	width: 150px;
+	-moz-box-shadow: 	0 2px 10px 5px #454545;
+	-webkit-box-shadow: 0 2px 10px 5px #454545;
+	box-shadow: 		0 2px 10px 5px #454545;
+   }
+/*======================================================================================
+										Header
+========================================================================================*/
+header {
+		position: fixed;		
+		right: 0;
+		left: 0;
+		top: 0px;
+		overflow: hidden;
+		background: #226078;
+	  }
+header banner {
+		font-size: 20px;
+		font-family: Sans-serif, Garmond, "Times New Roman", Times, serif;
+		font-weight: bold;
+		height: 75px;
+	   }
+/*======================================================================================
+										Menu
+========================================================================================*/	   
+	 
+.menu {
+		/*position: fixed;		*/
+		/*left: 500px;
+		top: 75px;*/
+		/*width: 200px;*/
+			
+		/*background: #F5F7F7;
+		padding: 0.5em;		*/
+		/*color: black;*/
+	  }
+nav {
+	}
+			
+nav ul	{
+				list-style-type:none;
+				padding:0;
+				overflow:hidden;
+			}
+	
+nav a	{
+					display: block;
+					padding: 6px 15px 6px 15px;
+					font-family: Sans-serif, Garmond, "Times New Roman", Times, serif;
+					font-weight: bold;
+					color: #15566B;
+					font-size: 15px;
+					text-align: center;
+					text-decoration: none;					
+				}
+				
+nav li	{
+					float: left;
+		}		
+.menu a:link { background: #189677; }  
+.menu a:active { background: #23C2B2; } 
+.menu a:hover { background: #A0E3FA; } 
+/*======================================================================================
+										Footer
+========================================================================================*/
+footer {
+		background: #729CAD;
+		position: absolute;	
+		right: 0;
+		left: 0;
+		line-height: 20px;
+	  }
+	  
+footer, banner 	{
+				margin-top: 2em;
+				font-size: 12px;
+				font-family: Sans-serif, Garmond, "Times New Roman", Times, serif;
+				}
+	
+footer b 	{
+			font-size:14px;
+		}
+		
+/*======================================================================================
+										Body
+========================================================================================*/
+	  
+.text	{
+			margin: 10px 0 10px 0;
+			background: white;
+			padding: 5px 20px 5px 20px;
+			color: #009999;
+		}
+.text h1	{
+			font-size: 30px;
+			font-family: Arial;		
+			text-align: center;
+		}
+		
+.text h2	{
+			font-size: 25px;
+			font-family: Arial;	
+		}
+.text p 	{
+			color: black;
+		}
+		
+		
+.text input	{
+				display: inline;
+				float: left;
+			}
+			
+.text label	{
+				display: inline;
+				float: left;
+				clear: left;
+				width: 250px;
+				text-align: right;
+			}
+			
+.text th		{
+				background: #4A93B8;
+				border: solid thin;
+				color: black;
+			}
+		
+.text td		{ 
+				background: white;
+				border: solid thin;
+			}
+			
+.text tr	{
+			border: solid thin;
+			
+		}
+		
+.text a 	{
+			text-decoration:none; 
+			display: block;
+			padding: 6px 15px 6px 15px;
+		}
+		
+.text a:link { background: #189677; }  
+.text a:active { background: #23C2B2; } 
+.text a:hover { background: #A0E3FA; } 
+		
+
+		   
+/* #controls {
+			display: block;
+			text-align: center;
+			padding: 10px;
+			background-color:#189677;
+			width: 200px;
+			-moz-box-shadow: 	0 2px 10px 5px #454545;
+			-webkit-box-shadow: 0 2px 10px 5px #454545;
+			box-shadow: 		0 2px 10px 5px #454545;
+		 }
+		 
+#help {		
+		position: absolute;
+		left: 50%;
+		top: 1%;
+		display: block;
+		text-align: center;
+		padding: 10px;
+		background-color:#4D818F;
+		width: 350px;
+		-moz-box-shadow: 	0 2px 10px 5px #454545;
+		-webkit-box-shadow: 0 2px 10px 5px #454545;
+		box-shadow: 		0 2px 10px 5px #454545;
+	 } */
+		
+		
